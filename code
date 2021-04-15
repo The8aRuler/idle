@@ -11,8 +11,32 @@ background:
 tiling background:
 building cost increase:115%
 building cost refund:50%
+no particles
+no bulk particles
+
+CSS
+#game
+{
+background:grey;
+font-family:"Times New Roman",Times,serif;
+color:black;
+}
+
+CSS
+.thing
+{
+border-radius:8px;
+background:rgba(255,255,255,0.5);
+}
+
+CSS
+#game.filtersOn .thing.cantAfford.notOwned
+{
+filter:blur(3px);
+}
 
 Resources
 *point
 name:point
 description:generic point
+
