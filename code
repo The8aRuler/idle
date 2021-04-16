@@ -34,6 +34,12 @@ CSS
   filter:blur(3px);
   }
 
+Buttons
+ *click
+  name:CLick
+  description:Click.
+  on click: yield 1 point
+
 Resources
  itemID=*point
   name:Point
