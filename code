@@ -36,39 +36,38 @@ filter:blur(3px);
 }
 
 Resources
-itemID=*point
-name:Point
-description:Generic Point
-show earned
-text:You have [?(this=0)|no points|[this] points].
+ itemID=*point
+  name:Point
+  description:Generic Point
+  show earned
+  text:You have [?(this=0)|no points|[this] points].
 
 Buldings
-itemID=*harvester
-name:Harvester
-description:Harvests Points
-cost:10 point
-on tick:yield 1 point
+ itemID=*harvester
+  name:Harvester
+  description:Harvests Points
+  cost:10 point
+  on tick:yield 1 point
 
 Upgrades
-*advancedharvesters
-name:Advanced Harvesters
-description:Harvesters now yield double.
-cost:500 point
-passive:multiply yield of harvester by 2
-
+ *advancedharvesters
+  name:Advanced Harvesters
+  description:Harvesters now yield double.
+  cost:500 point
+  passive:multiply yield of harvester by 2
 
 Layout
-*resources
-contains:Resources
-header:These are your Resources.
-*buildings
-contains:Buildings
-header:These are the things you can build.
-tooltip origin:left
-*upgrades
-contains:Upgrades
-header:You can Upgrade point output with these.
-*achievements
-contains:Achievements
-names:hide
+ *resources
+  contains:Resources
+  header:These are your Resources.
+ *buildings
+  contains:Buildings
+  header:These are the things you can build.
+  tooltip origin:left
+ *upgrades
+  contains:Upgrades
+  header:You can Upgrade point output with these.
+ *achievements
+  contains:Achievements
+  names:hide
 
