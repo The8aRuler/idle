@@ -36,14 +36,14 @@ filter:blur(3px);
 }
 
 Resources
-*point
+itemID=*point
 name:Point
 description:Generic Point
 show earned
 text:You have [?(this=0)|no points|[this] points].
 
 Buldings
-*harvester
+itemID=*harvester
 name:Harvester
 description:Harvests Points
 cost:10 point
@@ -55,6 +55,7 @@ name:Advanced Harvesters
 description:Harvesters now yield double.
 cost:500 point
 passive:multiply yield of harvester by 2
+
 
 Layout
 *resources
