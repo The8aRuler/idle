@@ -40,6 +40,7 @@ Resources
 name:Point
 description:Generic Point
 show earned
+text:You have [?(this=0)|no points|[this] points].
 
 Buldings
 *harvester
