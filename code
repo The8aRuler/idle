@@ -1,4 +1,3 @@
-Let's make a game
 name:idle game 
 author:The8aRuler
 desc:I made this for fun
@@ -15,25 +14,25 @@ Settings
  no bulk particles
 
 CSS
-#game
-{
-background:grey;
-font-family:"Times New Roman",Times,serif;
-color:black;
-}
+ #game
+  {
+  background:grey;
+  font-family:"Times New Roman",Times,serif;
+  color:black;
+  }
 
 CSS
-.thing
-{
-border-radius:8px;
-background:rgba(255,255,255,0.5);
-}
+ .thing
+  {
+  border-radius:8px;
+  background:rgba(255,255,255,0.5);
+  }
 
 CSS
-#game.filtersOn .thing.cantAfford.notOwned
-{
-filter:blur(3px);
-}
+ #game.filtersOn .thing.cantAfford.notOwned
+  {
+  filter:blur(3px);
+  }
 
 Resources
  itemID=*point
