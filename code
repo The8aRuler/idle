@@ -7,12 +7,12 @@ updated:4/15/2021
 version:1
 
 Settings
-background:
-tiling background:
-building cost increase:115%
-building cost refund:50%
-no particles
-no bulk particles
+ background:grey
+ tiling background:
+ building cost increase:115%
+ building cost refund:50%
+ no particles
+ no bulk particles
 
 CSS
 #game
